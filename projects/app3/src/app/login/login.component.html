@@ -1,0 +1,7 @@
+<form #userForm="ngForm">
+  <label for="email">Email :</label>
+  <input type="text" ngModel name="email" /><br />
+  <label for="email">Password :</label>
+  <input type="password" ngModel name="password" /><br />
+  <button (click)="login(userForm)">Login</button>
+</form>

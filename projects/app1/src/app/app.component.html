@@ -1,1 +1,9 @@
-<app-hello-world></app-hello-world>
+<label for="">Subjects :</label> <br />
+<select name="" id="" (change)="getTopics()" [(ngModel)]="subject">
+  <option value="">Select Subject</option>
+  <option value="HTML">HTML</option>
+  <option value="CSS">CSS</option>
+  <option value="JavaScript">JavaScript</option>
+  <option value="Angular">Angular</option>
+  <option value="ReactJS">ReactJS</option>
+</select>
